@@ -30,11 +30,12 @@ export default function Footer() {
     },
     left: {},
     name: {
-      fontFamily: "'Press Start 2P', cursive", fontWeight: 800,
-      fontSize: '1.2rem', color: '#00e5ff', marginBottom: '0.3rem',
+      fontFamily: "'Press Start 2P', cursive", fontWeight: 200,
+      fontSize: '0.7rem', color: '#00e5ff', marginBottom: '0.3rem',
     },
     college: {
       fontSize: '0.8rem', color: '#64748b',
+      fontFamily: "'Press Start 2P', cursive",
     },
     links: { display: 'flex', gap: '1rem' },
     link: {
@@ -42,13 +43,15 @@ export default function Footer() {
       padding: '0.6rem 1.2rem', borderRadius: '8px',
       border: '1px solid #1e1e2e', color: '#94a3b8',
       textDecoration: 'none', fontSize: '0.85rem',
-      transition: 'all 0.2s', fontWeight: 500,
+      transition: 'all 0.2s', fontWeight: 200,
+      fontFamily: "'Press Start 2P', cursive",
     },
     bottom: {
       maxWidth: '900px', margin: '2rem auto 0',
       paddingTop: '1.5rem', borderTop: '1px solid #1e1e2e',
       display: 'flex', justifyContent: 'space-between',
       flexWrap: 'wrap', gap: '0.5rem',
+      fontFamily: "'Press Start 2P', cursive",
     },
     copy: { color: '#374151', fontSize: '0.8rem' },
     email: {

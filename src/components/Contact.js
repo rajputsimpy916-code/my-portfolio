@@ -43,7 +43,7 @@ export default function Contact() {
     },
     sub: { color: '#64748b', fontSize: '1rem', marginBottom: '2.5rem',fontFamily: "'Press Start 1P', cursive" },
     field: { marginBottom: '1.2rem' },
-    label: { display: 'block', fontSize: '1.8rem', color: '#94a3b8', marginBottom: '0.4rem', fontWeight: 700 },
+    label: { display: 'block', fontSize: '0.9rem', color: '#94a3b8', marginBottom: '0.4rem', fontWeight: 200,fontFamily: "'Press Start 2P', cursive" },
     input: {
       width: '100%', padding: '0.85rem 1rem', borderRadius: '8px',
       background: 'rgba(6,13,15,0.75)', border: '1px solid rgba(0,229,255,0.2)', color: '#e2e8f0',
