@@ -40,6 +40,7 @@ export default function Skills() {
       alignItems: 'center', justifyContent: 'center',
       gap: '0.5rem', textAlign: 'center',
       minHeight: '100px', maxHeight: '100px',
+      fontFamily: "'Press Start 2P', cursive",
     },
     name: {
       fontFamily: "'Press Start 2P', cursive", fontWeight: 300,

@@ -47,7 +47,7 @@ export default function Contact() {
     input: {
       width: '100%', padding: '0.85rem 1rem', borderRadius: '8px',
       background: 'rgba(6,13,15,0.75)', border: '1px solid rgba(0,229,255,0.2)', color: '#e2e8f0',
-      fontSize: '0.95rem', fontFamily: 'DM Sans, sans-serif', outline: 'none',
+      fontSize: '0.95rem', outline: 'none',
       transition: 'border-color 0.2s', boxSizing: 'border-box',
       backdropFilter: 'blur(4px)',fontFamily: "'Press Start 1P', cursive",
     },

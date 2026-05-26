@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 const roles = ['Full-stack Developer'];
 
 export default function Hero() {
+  // eslint-disable-next-line no-unused-vars
   const [roleIdx, setRoleIdx] = useState(0);
   const [entered, setEntered] = useState(false);
 

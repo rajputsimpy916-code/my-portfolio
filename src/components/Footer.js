@@ -30,7 +30,7 @@ export default function Footer() {
     },
     left: {},
     name: {
-      fontFamily: 'Syne, sans-serif', fontWeight: 800,
+      fontFamily: "'Press Start 2P', cursive", fontWeight: 800,
       fontSize: '1.2rem', color: '#00e5ff', marginBottom: '0.3rem',
     },
     college: {

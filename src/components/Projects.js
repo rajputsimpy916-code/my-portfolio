@@ -40,24 +40,25 @@ export default function Projects() {
       fontSize: 'clamp(1.8rem, 3.5vw, 2.8rem)', color: '#e2e8f0',
       marginBottom: '0.75rem', letterSpacing: '-0.02em',
     },
-    sub: { color: '#64748b', fontSize: '1.0rem', marginBottom: '3rem', fontFamily: "'Press Start 1P', cursive" },
+    sub: { color: '#64748b', fontSize: '1.1rem', marginBottom: '4rem', fontFamily: "'Press Start 1P', cursive" },
     grid: {
       display: 'grid',
       gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))',
       gap: '1.5rem',
     },
     card: {
-      background: 'rgba(6,20,22,0.85)', border: '1px solid #00e5ff', borderRadius: '16px',
-      padding: '2rem', transition: 'all 0.3s', cursor: 'default',
+      background: 'rgba(6,20,22,0.85)', border: '1px solid #00e5ff', borderRadius: '20px',
+      padding: '1.5rem', transition: 'all 0.3s', cursor: 'default',
       position: 'relative', overflow: 'hidden', backdropFilter: 'blur(8px)',
+      fontFamily: "'Press Start 2P', cursive",
     },
     emoji: { fontSize: '2.5rem', marginBottom: '1rem', display: 'block' },
     cardTitle: {
-      fontFamily: "'Press Start 1P', cursive", fontWeight: 1000, fontSize: '1.3rem',
-      color: '#e2e8f0', marginBottom: '0.6rem',
+      fontFamily: "'Press Start 1P', cursive", fontWeight: 1100, fontSize: '1.5rem',
+      color: '#e2e8f0', marginBottom: '0.8rem',
     },
     cardDesc: {
-      fontSize: '1.3rem', color: '#64748b', lineHeight: 1.6, marginBottom: '1.2rem',
+      fontSize: '0.8rem', color: '#64748b', lineHeight: 1.8, marginBottom: '1.5rem',
     },
     tags: { display: 'flex', flexWrap: 'wrap', gap: '0.4rem', marginBottom: '1.5rem' },
     tagPill: {
@@ -67,8 +68,8 @@ export default function Projects() {
     },
     links: { display: 'flex', gap: '1rem' },
     link: {
-      fontSize: '0.85rem', color: '#818cf8', textDecoration: 'none',
-      fontWeight: 500, display: 'flex', alignItems: 'center', gap: '0.3rem',
+      fontSize: '0.6rem', color: '#818cf8', textDecoration: 'none',
+      fontWeight: 200, display: 'flex', alignItems: 'center', gap: '0.3rem',
       transition: 'color 0.2s',
     },
   };
