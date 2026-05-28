@@ -3,7 +3,7 @@ import React from 'react';
 const socialLinks = [
   { 
     name: 'GitHub', 
-    url: 'https://github.com/Simpysingh9',
+    url: 'https://github.com/rajputsimpy916-code',
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg',
     filter: true,
   },
