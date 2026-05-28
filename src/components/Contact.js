@@ -7,24 +7,33 @@ export default function Contact() {
 
   const handleChange = e => setForm({ ...form, [e.target.name]: e.target.value });
 
-  const handleSubmit = async () => {
-    if (!form.name || !form.email || !form.message) {
-      setStatus('error'); return;
+ const handleSubmit = async () => {
+    // .trim() lagane se agar koi galti se space chhod dega to bhi error nahi aayega
+    if (!form.name.trim() || !form.email.trim() || !form.message.trim()) {
+      setStatus('error'); 
+      return;
     }
+    
     setLoading(true);
+    setStatus(''); // Purana error ya success message clear karne ke liye
+    
     try {
+      // Ab ye direct Vercel Serverless function (/api/contact) par request bhejega
       const res = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(form),
       });
+      
       if (res.ok) {
         setStatus('success');
-        setForm({ name: '', email: '', message: '' });
-      } else setStatus('error');
-    } catch {
-      setStatus('success');
-      setForm({ name: '', email: '', message: '' });
+        setForm({ name: '', email: '', message: '' }); // Form clear karne ke liye
+      } else {
+        setStatus('error');
+      }
+    } catch (err) {
+      console.error("Network Error:", err);
+      setStatus('error'); // Catch block me ab error set hoga, galti se success nahi dikhaega
     }
     setLoading(false);
   };
